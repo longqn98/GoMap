@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KmlFile</name>
+	<open>1</open>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/B.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/B-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/B.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/B-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>Nhà Sách Vạn Hoa</name>
+		<LookAt>
+			<longitude>105.7819341631683</longitude>
+			<latitude>21.0644586645726</latitude>
+			<altitude>0</altitude>
+			<heading>4.026043009009477e-06</heading>
+			<tilt>0</tilt>
+			<range>9816.089380539508</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>105.7819341631683,21.0644586645726,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nhà Sách HT</name>
+		<LookAt>
+			<longitude>105.7779233011362</longitude>
+			<latitude>21.0697472998666</latitude>
+			<altitude>0</altitude>
+			<heading>4.085001064844593e-10</heading>
+			<tilt>0</tilt>
+			<range>1036.888154399451</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>105.7779232995786,21.06959794992309,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nhà Sách Cổ Nhuế</name>
+		<LookAt>
+			<longitude>105.7805672151308</longitude>
+			<latitude>21.05711720702793</latitude>
+			<altitude>0</altitude>
+			<heading>2.381067541072977e-05</heading>
+			<tilt>10.08495588196281</tilt>
+			<range>582.0575123463218</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>105.7805032452935,21.05721894685408,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nhà Sách Quảng Văn</name>
+		<LookAt>
+			<longitude>105.7660970002604</longitude>
+			<latitude>21.04476664979148</latitude>
+			<altitude>0</altitude>
+			<heading>9.35035368030052e-11</heading>
+			<tilt>0</tilt>
+			<range>1000.000117412692</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>105.7659076121086,21.04304094328836,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
